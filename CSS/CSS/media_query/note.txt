@@ -1,0 +1,11 @@
+CSS MEDIA QUERIES
+
+They are a feature in CSS3 which allows you to specify when certain CSS rules should be applied.
+This allows you to apply a special CSS for mobile, or adjust a layout for print.
+
+Media queries can be used to check many things, such as:
+
+width and height of the viewport
+width and height of the device
+orientation (is the tablet/phone in landscape or portrait mode?)
+resolution

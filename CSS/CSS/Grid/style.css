@@ -1,0 +1,22 @@
+h1{
+    color:red
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 2em;
+}
+.box{
+    border: 1px solid #333;
+    padding: 1em;
+    grid-area:inherit;
+}
+.minbox{
+    border: 1px solid #333;
+    padding: 1em;
+    
+}
+.box :nth-child(1){
+    color: red;
+}

@@ -1,0 +1,48 @@
+h1{
+    color:black;
+}
+@media (min-width:460px){
+    .container {
+    display: flex;
+    /* align-items: flex-start;
+    align-items: flex-end; */
+    
+}
+}
+
+.container div{
+    padding: 3px;
+    margin: 2px;
+}
+.box1{
+    width: 200px;
+    height: 300px;
+    background-color: brown;
+    /* flex:3;
+    order:3; */
+}
+.box2{
+    width: 200px;
+    height: 300px;
+    background-color:blue;
+    /* flex:1; */
+}
+.box3{
+    width: 200px;
+    height: 300px;
+    background-color:chocolate;
+    /* flex:1; */
+}
+.box4{
+    width: 200px;
+    height: 300px;
+    background-color:black;
+    /* flex:1; */
+}
+
+.box5{
+    width: 200px;
+    height: 300px;
+    background-color:red;
+    /* flex:1; */
+}
